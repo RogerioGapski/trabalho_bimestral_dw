@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="tabela.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Cadastros</title>
+</head>
+
+<body>
+    <main>
+        <section class="caixa">
+            <header>
+                <h1 id="titulo">Lista de Cadastros</h1>
+            </header>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Idade</th>
+                        <th scope="col">Data</th>
+                    </tr>
+                </thead>
+                <tbody id="corpo">
+                    <tr>
+                        <td colspan="5" class="vazio">Carregando cadastros...</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" id="total"></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <footer>
+                <a href="form.html" class="btn-voltar">Voltar ao Cadastro</a>
+            </footer>
+        </section>
+    </main>
+
+    <script type="module" src="tabela.js"></script>
+</body>
+</html>

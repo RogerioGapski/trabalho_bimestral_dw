@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <main>
+        <div class="caixa">
+            <h1 id="titulo">Formulário de cadastro</h1>
+            <form id="formulario">
+                <label for="nome">Nome:</label>
+                <input required type="text" id="nome" pattern="[a-zA-ZÀ-ÿ ]{2,50}" placeholder="Seu nome">
+
+                <label for="email">Email:</label>
+                <input required type="email" id="email" pattern="[a-zA-Z0-9@.]{4,30}" placeholder="Seu email">
+
+                <label for="idade">Idade:</label>
+                <input required type="number" id="idade" placeholder="Sua idade">
+
+                <label for="senha">Senha:</label>
+                <input required type="password" id="senha" pattern=".{6,20}" placeholder="Sua senha">
+
+                <button type="submit" id="cadastrar">Cadastrar</button>
+            </form>
+        </div>
+        <div id="cadastros">
+            <a href="tabela.html" id="link-cadastros">Página de cadastros</a>
+        </div>
+    </main>
+
+    <script type="module" src="form.js"></script>
+</body>
+</html>

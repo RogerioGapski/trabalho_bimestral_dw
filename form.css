@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  flex-direction: column;
+  background-image: url('images/Fundo_do_site.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.caixa {
+  width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  width: 80%;
+  margin: 10px auto;
+  display: block;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 80%;
+  margin: 10px auto;
+  display: block;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+#titulo {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#cadastrar {
+    font-size: 20px;
+}
+
+#caixa-lista { 
+  width: 160px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+label {
+    width: 80%;
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+}
+
+#cadastros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#link-cadastros {
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+    padding: 12px 12px;
+    font-size: 15px;
+}
+
+#link-cadastros:hover {
+    opacity: 0.75;
+  }
